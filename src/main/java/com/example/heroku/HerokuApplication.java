@@ -12,7 +12,7 @@ public class HerokuApplication {
     @RequestMapping("/")
     @ResponseBody
     String home() {
-        return "Hello Worlddd!";
+        return "Hello Worlddwadsadsadd!";
     }
     public static void main(String[] args) {
         SpringApplication.run(HerokuApplication.class, args);
